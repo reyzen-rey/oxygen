@@ -1,0 +1,21 @@
+{
+    "name": "reyzen-rey/oxygen",
+    "description": "A simple package for laravel 9.",
+    "license": "MIT",
+    "homepage": "https://github.com/reyzen-rey/oxygen",
+    "authors": [
+        {
+            "name": "reyzen-rey",
+            "email": "uncuycuy6@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "8.0.*|8.1.*",
+        "laravel/framework": "9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "RR\\Oxygen\\": "src/"
+        }
+    }
+}
